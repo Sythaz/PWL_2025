@@ -29,3 +29,7 @@ return 'World';
 Route::get('/about', function () {
 return '2341720102';
 });
+
+Route::get('/user/{name}', function ($name) {
+    return 'Nama saya '.$name;
+});
